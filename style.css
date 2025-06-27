@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars when logo goes to edges */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#dvd-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* Optional: Add a border for the "screen" effect if desired */
+    /* border: 2px solid white; */
+    /* box-sizing: border-box; */
+}
+
+#dvd-logo {
+    position: absolute;
+    font-size: 8vw; /* Responsive font size */
+    font-weight: bold;
+    color: white; /* Initial color */
+    padding: 1vw 2vw; /* Responsive padding */
+    border-radius: 50%; /* For the oval background effect */
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+    background-color: red; /* Initial background color */
+    box-shadow: 0 0 2vw rgba(255, 255, 255, 0.5); /* Subtle glow */
+}
